@@ -4,28 +4,12 @@ per_page: 10
 last_posts: true
 ---
 
-<div class="col-md-6 col-md-offset-3">
-  <%= image_tag 'skull.png' %>
+<div class="col-md-8 col-md-offset-2 claim">
 
-  <p>I'm a tech enterpreneur and musician based in Barcelona.</p>
-  <p>Co-founder of <a href="https://loyal.guru" target="_blank">Loyal Guru</a></p>
-  <p>Making music and touring with <a href="http://www.somoscyan.com" target="_blank">Cyan</a></p>
+  <%= image_tag 'skull.png', class: "center-block" %>
+  <h1 class="text-center h2">Hi! I'm Javi Fernández</h1>
+  <p class="lead text-center">I'm a tech enterpreneur and musician based in Barcelona.<br/>
+  Investing a lot of my time at <a href="https://loyal.guru" target="_blank">Loyal Guru</a>, a company I co-founded.<br/>
+  I’ve released three albums and toured several times around with my band <a href="http://www.somoscyan.com" target="_blank">Cyan</a>.</p>
 
 </div>
-
-
-
-<% if paginate && num_pages > 1 %>
-  <p>Page <%= page_number %> of <%= num_pages %></p>
-
-  <% if prev_page %>
-    <p><%= link_to 'Previous page', prev_page %></p>
-  <% end %>
-<% end %>
-
-
-<% if paginate %>
-  <% if next_page %>
-    <p><%= link_to 'Next page', next_page %></p>
-  <% end %>
-<% end %>

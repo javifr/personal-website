@@ -1,5 +1,87 @@
+/*
+green = #1abc9c
+green-dark = #16a085
+grey = #f2f2f2
+grey-dark = #555555
+*/
+
+body{
+  font-family: 'Montserrat', sans-serif;
+-webkit-font-smoothing: antialiased;
+}
+p{
+    color:#555;
+}
+h1,h2,h3,h4,h5{
+  color:black;
+}
+
+.navbar-inverse{
+  background-color:#1abc9c;
+  border:none;
+  border-radius:0px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom:60px;
+  border-bottom:1px solid #16a085;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+  color:white;
+  text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-brand{
+  color:white;
+}
+
+.last-posts{
+  margin-top:60px;
+}
+
 .last-posts .post{
   min-height: 250px;
   background-color:#cdcdcd;
+  text-align:center;
+  color:white;
 }
 
+.last-posts .post h2{
+  font-weight:normal;
+}
+
+.last-posts .post{
+  background-color:#1abc9c;
+}
+
+.last-posts .post:nth-child(odd){
+  background-color:#16a085;
+}
+
+.container-full-width{
+  padding-left:0px;
+  padding-right:0px;
+}
+
+.vcenter{
+    padding: 25px;
+    width: 90%;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.claim h1{
+  font-weight:bold;
+}
+
+.claim .lead{
+  margin-top:20px;
+  margin-bottom:20px;
+  font-size:16px;
+}
