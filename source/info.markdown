@@ -1,4 +1,4 @@
 
 # Info
 
-The new tyde
+Some information about me that is not written yet.

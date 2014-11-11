@@ -12,7 +12,7 @@ activate :blog do |blog|
   # Matcher for blog source files
   blog.sources = "blog/{year}-{month}-{day}-{title}.html"
   blog.taglink = "{tag}.html"
-  # blog.layout = "layout_container"
+  # blog.layout = "layout_blog"
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
   # blog.year_link = "{year}.html"
@@ -72,11 +72,11 @@ page "/feed.xml", layout: false
 # activate :livereload
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def classes_from(string)
+    string.data.tags.downcase.strip.gsub(' ', '').gsub(',', ' ')
+  end
+end
 
 set :css_dir, 'stylesheets'
 
