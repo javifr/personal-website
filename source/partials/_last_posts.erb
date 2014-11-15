@@ -1,12 +1,12 @@
 <div class="container-fluid container-full-width last-posts">
 <% page_articles[0...9].each_with_index do |article, i| %>
   <% link_to article do %>
-    <div class="col-md-4 post <%= classes_from(article) %>">
+    <article class="col-md-4 post <%= classes_from(article) %>">
       <div class="vcenter">
         <h2 class="h3"><%= article.title %></h2>
         <span><%= article.date.strftime('%b %e') %></span>
       </div>
-    </div>
+    </article>
   <% end %>
 <% end %>
 </div>

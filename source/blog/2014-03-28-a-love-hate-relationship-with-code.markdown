@@ -1,12 +1,12 @@
 ---
 title: A love-hate relationship with code
-date: 2014-11-09 22:15 UTC
-tags: notes
+date: 2014-03-28 22:15 UTC
+tags: notes, dis
 ---
 
 # A love-hate relationship with code
 
-I've always liked [Jonathan Harris](http://www.number27.org/), his different projects, his perspective and his path in general. This interview on [The Great Discontent](http://thegreatdiscontent.com/interview/jonathan-harris) have some great thoughts and reflexions about coding which resonates a lot with my feelings about the same topic.
+I've always liked [Jonathan Harris](http://www.number27.org/), his different projects, his perspective and his path in general. This interview on [The Great Discontent](http://thegreatdiscontent.com/interview/jonathan-harris) have some great thoughts about coding which resonates a lot with my feelings about the same topic.
 
 >I frequently struggle with my relationship to coding. I’m not someone who adores the process of coding, but there is something about it that can be beautiful. Life is very messy and chaotic, but when you’re building a computer program, if it’s designed well and if you’re the only one working on it, it’s neither messy nor chaotic: it’s incredibly orderly. You know where everything goes and you can obsess over every little detail, so you can live in this perfect, imaginary universe. It’s kind of like the ultimate expression of my childhood impulse of hiding under a sheet fort and reading comic books all day. Code allows that on a much bigger level, where you can engineer a reality and then live within that reality for most of your days. That reality can be free of conflict, free of complexity and emotions, and I think there’s something appealing to a lot of coders about disappearing into such a space. It’s very utopian.
 

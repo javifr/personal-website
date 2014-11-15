@@ -1,7 +1,7 @@
 ---
 title: The immediacy era, Kurt Cobain's wise words
-date: 2014-11-09 12:02 UTC
-tags: notes
+date: 2014-05-18 12:02 UTC
+tags: notes, dis
 ---
 
 # The immediacy era, Kurt Cobain's wise words

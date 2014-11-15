@@ -1,7 +1,7 @@
 ---
 title: Sometimes you have to write to figure it out
-date: 2014-11-09 22:16 UTC
-tags: notes
+date: 2014-07-16 22:16 UTC
+tags: notes, dis
 ---
 
 # Sometimes you have to write to figure it out

@@ -5,13 +5,19 @@ grey = #f2f2f2
 grey-dark = #555555
 */
 
+/*
+Bootstrap base overide
+*/
+
 body{
   font-family: 'Montserrat', sans-serif;
--webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
 }
+
 p{
     color:#555;
 }
+
 h1,h2,h3,h4,h5{
   color:black;
 }
@@ -35,6 +41,30 @@ h1,h2,h3,h4,h5{
   color:white;
 }
 
+.container-full-width{
+  padding-left:0px;
+  padding-right:0px;
+}
+
+/*
+Home
+*/
+
+.claim h1{
+  font-weight:bold;
+}
+
+.claim .lead{
+  margin-top:20px;
+  margin-bottom:20px;
+  font-size:16px;
+}
+
+/*
+Latest Posts
+*/
+
+
 .last-posts{
   margin-top:60px;
 }
@@ -50,18 +80,33 @@ h1,h2,h3,h4,h5{
   font-weight:normal;
 }
 
-.last-posts .post{
+/*.last-posts .post{
   background-color:#1abc9c;
 }
 
-.last-posts .post:nth-child(odd){
+.last-posts .post:nth-child(even){
   background-color:#16a085;
+}*/
+
+
+.last-posts .post.dis{
+  background-color:#16a085;
+  border:1px solid rgba(22,160,133,0.8);
 }
 
-.container-full-width{
-  padding-left:0px;
-  padding-right:0px;
+.last-posts .post.dis:nth-child(odd){
+  background-color:#1abc9c;
 }
+
+.last-posts .post.order{
+  background-color:#0085a1;
+  border:1px solid rgba(0,120,146,0.8);
+}
+
+.last-posts .post.order:nth-child(even){
+  background-color:#0085a1;
+}
+
 
 .vcenter{
     padding: 25px;
@@ -76,12 +121,7 @@ h1,h2,h3,h4,h5{
     right: 0;
 }
 
-.claim h1{
-  font-weight:bold;
-}
 
-.claim .lead{
-  margin-top:20px;
-  margin-bottom:20px;
-  font-size:16px;
-}
+
+
+
