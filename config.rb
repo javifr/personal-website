@@ -78,6 +78,9 @@ helpers do
   end
 end
 
+set :markdown_engine, :kramdown
+set :markdown, :fenced_code_blocks => true, :smartypants => true
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
@@ -112,3 +115,5 @@ activate :deploy do |deploy|
   # deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
   # deploy.commit_message = 'custom-message'      # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
 end
+
+activate :syntax, line_numbers: true

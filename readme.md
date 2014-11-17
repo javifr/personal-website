@@ -18,3 +18,18 @@ That's the repository of my personal website. It uses Middleman and Bootstrap.
 
 ### Mantra de articles
 - Aprender algo nuevo en cada article(  nodejs, go, algo con ruby...)
+
+* * *
+
+# Markdown
+
+Kramdown is used in this site in order to have a good syntax highlighting.
+
+Sample:
+~~~ruby
+def my_cool_method(message)
+  puts message
+end
+~~~
+
+Everything thanks to middleman-syntax and github style syntax. Check config.rb ( activate , markdown_engine, etc... )
