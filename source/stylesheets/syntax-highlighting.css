@@ -13,6 +13,8 @@
   margin-bottom:0px !important;
 }
 .highlight{
+  margin-bottom:15px !important;
+  margin-top:15px !important;
   background-color:#eee;
   border:1px solid #ddd;
 }
