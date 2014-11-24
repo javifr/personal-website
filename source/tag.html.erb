@@ -3,38 +3,43 @@ pageable: true
 per_page: 10
 ---
 
-<div class="page-header">
+<div class="container">
   <h1><%= tagname %></h1>
 </div>
 
-
   <% page_articles.each_with_index do |article, i| %>
-    <h2><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></h2>
-    <!--
-    <%= article.body %>
-    -->
+  <article class="post <%= classes_from(article) %>">
+    <div class="container">
+      <h2><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></h2>
+      <!--
+      <%= article.body %>
+      -->
+    </div>
+  </article>
   <% end %>
 
 
 <% if paginate %>
-<nav>
-  <ul class="pager">
-<% end %>
 
-  <% if paginate && num_pages > 1 %>
-    <!-- <p>Page <%= page_number %> of <%= num_pages %></p> -->
-    <% if prev_page %>
-      <li class="previous"><%= link_to 'Previous page', prev_page %></li>
+<div class="container pag">
+<div class="row">
+  <div class="col-md-6 col-sm-6 col-xs-6 prev">
+   <% if paginate && num_pages > 1 %>
+      <!-- <p>Page <%= page_number %> of <%= num_pages %></p> -->
+      <% if prev_page %>
+       <%= link_to 'previous page', prev_page %>
+      <% end %>
     <% end %>
-  <% end %>
-
+  </div>
+  <div class="col-md-6 col-sm-6 col-xs-6 next">
   <% if paginate %>
     <% if next_page %>
-      <li class="next"><%= link_to 'Next page', next_page %></li>
+      <%= link_to 'next page', next_page %>
     <% end %>
   <% end %>
+  </div>
+</div>
+</div>
 
-<% if paginate %>
-  </ul>
-</nav>
+
 <% end %>

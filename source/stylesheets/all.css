@@ -88,25 +88,45 @@ Latest Posts
   background-color:#16a085;
 }*/
 
+.post a,
+.post h2{
+  color:white;
+  color:rgba(255,255,255,0.9);
+}
+.post h2 span{
+  color:rgba(255,255,255,0.4);
+}
 
-.last-posts .post.dis{
+.post.dis{
   background-color:#16a085;
   border:1px solid rgba(22,160,133,0.8);
 }
 
-.last-posts .post.dis:nth-child(odd){
+.post.dis:nth-child(odd){
   background-color:#1abc9c;
 }
 
-.last-posts .post.order{
+.post.order{
   background-color:#0085a1;
   border:1px solid rgba(0,120,146,0.8);
 }
 
-.last-posts .post.order:nth-child(even){
+.post.order:nth-child(even){
   background-color:#0085a1;
 }
 
+
+.tag .post h2{
+  margin:40px 0px;
+}
+
+.tag h1{
+  margin:40px 0px;
+  color:#666;
+}
+.tag .navbar{
+  margin-bottom:0px;
+}
 
 .vcenter{
     padding: 25px;
@@ -123,5 +143,21 @@ Latest Posts
 
 
 
+/*
+Pagination
+*/
 
+.pag a{
+  display:block;
+
+  min-height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+.pag .next{
+    border-left: 1px solid #eee;
+  }
+.pag .prev{
+    border-right: 1px solid #eee;
+  }
 
