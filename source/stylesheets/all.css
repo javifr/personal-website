@@ -161,3 +161,11 @@ Pagination
     border-right: 1px solid #eee;
   }
 
+
+
+/*
+resp images and videos
+*/
+iframe,embed,img,video{
+  max-width:100% !important;
+}
