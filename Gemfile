@@ -10,3 +10,5 @@ gem "middleman-syntax"
 gem "builder", "~> 3.0"
 
 gem 'middleman-deploy', '~> 0.3.0'
+gem "middleman-google-analytics"
+gem "middleman-disqus"

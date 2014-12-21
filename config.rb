@@ -116,4 +116,14 @@ activate :deploy do |deploy|
   # deploy.commit_message = 'custom-message'      # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
 end
 
+# config.rb
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-57904370-1'
+end
+
+# config.rb
+activate :disqus do |d|
+  d.shortname = 'javifernandez' # Replace with your Disqus shortname.
+end
+
 activate :syntax, line_numbers: true
