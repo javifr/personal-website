@@ -15,7 +15,7 @@ Let's jump into some code that shows how to consume an Hypermedia API ( embedded
 
 ## Musicians and instruments
 
-Let's say we have an endpoint for musical **instruments** and another endpoint for **musicians** with and hypothetical https://api.accme.com base url. An instrument has many categories, and a musician has many instruments. So for the sake of the example, categories will be embedded resources for an instrument resource and instruments will be embedded resources for the musician resource.
+Let's say we have an endpoint for musical **instruments** and another endpoint for **musicians** with and hypothetical https://api.acme.com base url. An instrument has many categories, and a musician has many instruments. So for the sake of the example, categories will be embedded resources for an instrument resource and instruments will be embedded resources for the musician resource.
 
 ### Singular Instrument resource 
 Response to a GET https://api.acme.com/instruments/1

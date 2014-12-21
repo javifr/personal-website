@@ -112,7 +112,7 @@ Latest Posts
 }
 
 .post.order:nth-child(even){
-  background-color:#0085a1;
+  background-color:rgba(0,133,161,0.85);
 }
 
 
