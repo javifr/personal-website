@@ -2,6 +2,7 @@
 title: Consuming Hypermedia APIs with Restangular
 date: 2014-12-21 13:17 UTC
 tags: order, angular, hypermedia, restangular
+comments: on
 ---
 
 # Consuming Hypermedia API's with Restangular
@@ -202,7 +203,7 @@ app.run(function(Restangular)){
 
 That would be it! With a bunch of lines of code you can start consuming Hypermedia Rest Api's with Restangular.
 
-For the moment I'm quite happy with the whole "pseudo" Hypermedia implementation that we've done on our company. I say pseudo becasue we are not that strict. We are not using **curies** and we don't even have self reference links in every resource, we are just taking some parts of the specification that helps us on building faster ( pagination as _links, not needing to build manually the urls of the Api calls, accessing easily to nested or embedded resources, etc... ). 
+For the moment I'm quite happy with the whole "pseudo" Hypermedia implementation that we've done on our company. I say pseudo because we are not that strict. We are not using **curies** and we don't even have self reference links in every resource, we are just taking some parts of the specification that helps us on building faster ( pagination as _links, not needing to build manually the urls of the Api calls, accessing easily to nested or embedded resources, etc... ). 
 
 I can see a huge potential on Hypermedia but I'm missing some big things too. For example the ability to have a form specification, perhaps something like [Json Form](https://github.com/joshfire/jsonform) would be a nice starting point.
 
@@ -213,4 +214,3 @@ I can see a huge potential on Hypermedia but I'm missing some big things too. Fo
 - [Hypermedia Specification](http://stateless.co/hal_specification.html)
 - [Teowaki Api](https://developers.teowaki.com/api-hypermedia)
 - [Hypermedia the next "cloud"?](http://blog.smartbear.com/api-testing/kin-lane-why-all-the-hate-toward-hypermedia/)
-
