@@ -1,7 +1,7 @@
 ---
 title: Consuming Hypermedia APIs with Restangular
 date: 2014-12-21 13:17 UTC
-tags: order, angular, hypermedia, restangular
+tags: notes, order, angular, hypermedia, restangular
 comments: on
 ---
 
