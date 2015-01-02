@@ -8,6 +8,6 @@ tags: notes, dis
 
 <iframe src="//player.vimeo.com/video/115796360" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-> When I was younger I wanted to make beautiful things, and then as I got older an more experienced in this, I understood that is not what is about. The essence of being an artist is to confront the thing you are trying to do, to tackle it hand on. And if wrestling with this things you manage to do something that is good, then it will have its own beauty, but it’s not the kind of beauty that you can predict. Is nothing that you can strive for.
+> When I was younger I wanted to make beautiful things, and then as I got older and more experienced in this, I understood that's not what is about. The essence of being an artist is to confront the thing you are trying to do, to tackle it hands on. And if wrestling with this things you manage to do something that is good, then it will have its own beauty, but it’s not the kind of beauty that you can predict. Is nothing that you can strive for.
 What you have to strive for is to engage with your material as deeply as you can.   
 **Paul Auster**
