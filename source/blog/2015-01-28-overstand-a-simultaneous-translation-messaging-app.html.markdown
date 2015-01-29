@@ -2,6 +2,7 @@
 title: Overstand, a simultaneous translation messaging app
 date: 2015-01-28 20:48 UTC
 tags: notes, order, angularjs, tech, app, firebase, messaging
+comments: on
 ---
 
 # Overstand, a simultaneous translation messaging app
