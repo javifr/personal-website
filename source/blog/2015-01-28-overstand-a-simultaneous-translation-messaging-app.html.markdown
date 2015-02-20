@@ -19,7 +19,7 @@ The design is focused on offering no barriers in order to start a conversation. 
 
 It's now available as a [web app](http://app.overstand.io), on the [Play Store](https://play.google.com/store/apps/details?id=com.overstand.io) and on the [iTunes Store](https://itunes.apple.com/es/app/overstand/id962440807?l=en&mt=8).
 
-I'm quite happy with the results given the time spent on the creation, and has proven to be a very good exercise in order to identify the core things in order to build a product in little time.
+I'm quite happy with the results given the time spent on the creation, and has proven to be a very good exercise in order to identify the core things building a product in little time.
 
 Check it out here: [www.overstand.io](http://www.overstand.io)
 
