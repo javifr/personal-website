@@ -3,6 +3,7 @@ title: Managing your application index.html assets with Gulp
 date: 2015-01-29 17:01 UTC
 tags: order, gulp, environment, index
 comments: on
+published: false
 ---
 
 # Managing your application index.html assets with Gulp

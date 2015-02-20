@@ -176,3 +176,8 @@ iframe,embed,img,video{
   margin-top:2em;
   margin-bottom:2em;
 }
+
+.container p img{
+  margin-top: 15px;
+  margin-bottom:15px;
+}
