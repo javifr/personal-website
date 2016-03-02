@@ -53,7 +53,7 @@ page "/feed.xml", layout: false
 # page "/path/to/file.html", layout: :otherlayout
 #
 page "/redirect.html", layout: :layout_redirect
-page "/redirect_emilia.html", layout: :layout_redirect
+page "/redirect_emilia.html", layout: :layout_redirect_emilia
 
 
 
