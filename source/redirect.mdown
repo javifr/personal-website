@@ -1,4 +1,3 @@
-
-# Redirect
-
-Utility for auto-writing mails to my daughter
+---
+mailto: afernandezsandrini@gmail.com
+---
