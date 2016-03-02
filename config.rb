@@ -52,12 +52,9 @@ page "/feed.xml", layout: false
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
 #
-# page "/redirect.html", layout: :layout_redirect
+page "/redirect.html", layout: :layout_redirect
+page "/redirect_emilia.html", layout: :layout_redirect
 
-with_layout :layout_redirect do
-  page "/redirect"
-  page "/redirect_emilia"
-end
 
 
 # A path which all have the same layout
