@@ -52,6 +52,7 @@ page "/feed.xml", layout: false
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
 #
+page "/redirect.html", layout: :layout_redirect
 # A path which all have the same layout
 with_layout :layout_tag do
   page "/tag/*"
