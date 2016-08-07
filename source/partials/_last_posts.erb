@@ -4,7 +4,7 @@
     <article class="col-md-4 post <%= classes_from(article) %>">
       <div class="vcenter">
         <h2 class="h3"><%= article.title %></h2>
-        <span><%= article.date.strftime('%b %e') %></span>
+        <span><%= article.date.strftime('%e %b \'%y') %></span>
       </div>
     </article>
   <% end %>
